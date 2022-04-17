@@ -1,0 +1,9 @@
+import webbrowser, time, pyautogui
+
+url=['###Your list of links###']
+
+for i in url:
+   j= i
+   webbrowser.open(str(j))
+   time.sleep(60) #time u wanna keep it open
+   pyautogui.hotkey('ctrl', 'w')
